@@ -1,41 +1,69 @@
-# Compiled Lua sources
-luac.out
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
 
-# Precompiled Headers
-*.gch
-*.pch
+local Window = OrionLib:MakeWindow({Name = "Private BrookHaven RP gui", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = true
+})
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+local Section = Tab:AddSection({
+	Name = "Brookhaven RP Main Section"
+})
 
+
+
+Tab:AddButton({
+	Name = "Spawn Car",
+	Callback = function()
+		OrionLib:MakeNotification({
+			Name = "WARNING",
+			Content = "Please do not spawn the car too fast, If doing so then your gonna get kicked.",
+			Image = "rbxassetid://4483345998",
+			Time = 5
+		})
+
+		wait(1.99)
+
+		local args = {
+			[1] = "PickingCar",
+			[2] = "Hearse"
+		}
+		game:GetService("ReplicatedStorage").WW:FindFirstChild("6T6Ca6T6r"):FireServer(unpack(args))		
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		ObSsTu
+  	end    
+})
+
+
+
+
+
+
+
+OrionLib:MakeNotification({
+	Name = "GUI",
+	Content = "Brookhaven Private Gui has been loaded!",
+	Image = "rbxassetid://4483345998",
+	Time = 20
+})
+
+
+
+
+
+
+
+
+OrionLib:Init() --End function

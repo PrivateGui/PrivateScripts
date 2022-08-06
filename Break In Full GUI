@@ -1,0 +1,5 @@
+if game.PlaceId == 3851622790 then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/PrivateGui/PrivateScripts/main/BreakIn%20Private%20Gui')))()
+elseif game.PlaceId == 4620170611 then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/PrivateGui/PrivateScripts/main/Main%20Game')))()
+end

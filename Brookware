@@ -1,33 +1,191 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local plr = game.Players.LocalPlayer
-local Window = OrionLib:MakeWindow({Name = "TestWareX V2", IntroEnabled = false, HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 1
+}
 
-local Tab = Window:MakeTab({
-	Name = "Main",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))		
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 2
+}
 
-Tab:AddDropdown({
-	Name = "Roomate giver",
-	Default = "0",
-	Options = {"0","1", "2"},
-	Callback = function(Value)
-		local args = {
-			[1] = "GivePermissionLoopToServer",
-			[2] = game:GetService("Players").LocalPlayer,
-			[3] = 11
-		}
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))		
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 3
+}
 
-		game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))		
-	end    
-})
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))		
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 4
+}
 
-OrionLib:MakeNotification({
-	Name = "Welcome!",
-	Content = "Your logged as "..plr.Name.."!",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))		
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 5
+}
 
-OrionLib:Init()
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 6
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 7
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 8
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 9
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 11
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 12
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 13
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 14
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 15
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 16
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 17
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 18
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 19
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 20
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 21
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 22
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 23
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 24
+}
+
+game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))

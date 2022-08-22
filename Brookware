@@ -1,0 +1,33 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local plr = game.Players.LocalPlayer
+local Window = OrionLib:MakeWindow({Name = "TestWareX V2", IntroEnabled = false, HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddDropdown({
+	Name = "Roomate giver",
+	Default = "0",
+	Options = {"0","1", "2"},
+	Callback = function(Value)
+		local args = {
+			[1] = "GivePermissionLoopToServer",
+			[2] = game:GetService("Players").LocalPlayer,
+			[3] = 11
+		}
+
+		game:GetService("ReplicatedStorage").GGGG6:FindFirstChild("9Q9Playe9Q9rTrigge9Q9rEven9Q9t"):FireServer(unpack(args))		
+	end    
+})
+
+OrionLib:MakeNotification({
+	Name = "Welcome!",
+	Content = "Your logged as "..plr.Name.."!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+OrionLib:Init()

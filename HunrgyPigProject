@@ -1,0 +1,93 @@
+--project v2 baby
+
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local plr = game.Players.LocalPlayer
+
+Rayfield:Notify({
+    Title = "Private GUI",
+    Content = "Welcome to Private GUI "..plr.Name,
+    Duration = 6.5,
+    Image = 4483362458,
+    Actions = { -- Notification Buttons
+       Ignore = {
+          Name = "Okay!",
+          Callback = function()
+          print("The user tapped Okay!")
+       end
+    },
+ },
+ })
+
+
+local Window = Rayfield:CreateWindow({
+    Name = "Hungry Pig Private Script ⚪",
+    LoadingTitle = "Hungry Pig ✔",
+    LoadingSubtitle = "By X_Miner",
+    ConfigurationSaving = {
+       Enabled = true,
+       FolderName = "HunrgyPig", -- Create a custom folder for your hub/game
+       FileName = "Big Hub"
+    },
+    Discord = {
+       Enabled = false,
+       Invite = "SIRIUS", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+    },
+    KeySystem = true, -- Set this to true to use our key system
+    KeySettings = {
+       Title = "Private Scripts!",
+       Subtitle = "Key System",
+       Note = "This is a beta Gui, only devs have access to the gui.",
+       FileName = "PrivateGui",
+       SaveKey = true,
+       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+       Key = "BetaTest"
+    }
+ })
+
+ local Tab = Window:CreateTab("Money", 4400700509) -- Title, Image
+
+ local Button = Tab:CreateButton({
+    Name = "1 Billion money (Web Method)",
+    Callback = function()
+        local args = {
+            [1] = {
+                ["Description"] = "Trap a Pig with this Spider Web!",
+                ["ImageID"] = "rbxassetid://4400700509",
+                ["Name"] = "Web",
+                ["Cost"] = -1000000000
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("PurchasePet"):FireServer(unpack(args))
+        
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Remove 1 billion money (Web Method)",
+    Callback = function()
+        local args = {
+            [1] = {
+                ["Description"] = "Trap a Pig with this Spider Web!",
+                ["ImageID"] = "rbxassetid://4400700509",
+                ["Name"] = "Web",
+                ["Cost"] = 1000000000
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("PurchasePet"):FireServer(unpack(args))
+        
+    end,
+ })
+
+ local Section = Tab:CreateSection("Make sure that you dont have a web in your inventory")
+
+ local Button = Tab:CreateButton({
+    Name = "Rejoin",
+    Callback = function()
+        local ts = game:GetService("TeleportService")
+
+        ts:Teleport(game.PlaceId,plr)()
+    end,
+ })

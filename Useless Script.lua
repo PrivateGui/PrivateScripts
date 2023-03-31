@@ -1,0 +1,3 @@
+getgenv().Message = 
+
+print(Message)
